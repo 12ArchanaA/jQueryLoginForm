@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginForm.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+<body>
+    <div class="container">
+        <h2>Login Form</h2>
+    <div class="form-container">
+        <form action="#" id="signup-form">
+
+            <div class="form-field">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter your Name" id="name" name="name">
+                <div class="error-message" id="name-error">
+
+                </div>
+            </div>
+            
+            <div class="form-field">
+                <label for="email">E-mail:</label>
+                <input type="text" placeholder="Enter your E-mail" id="email" name="email">
+                <div class="error-message" id="email-error">
+
+                </div>
+            </div>
+
+            <div class="form-field">
+                <label for="phone">Phone-no:</label>
+                <input type="number" placeholder="Enter your Phone-no:" id="phone" name="phone">
+                <div class="error-message" id="phone-error">
+
+                </div>
+            </div>
+
+            <div class="form-field">
+                <label for="username">Username:</label>
+                <input type="text" placeholder="Enter Username" id="username" name="username">
+                <div class="error-message" id="username-error">
+
+                </div>
+            </div>
+
+
+            <div class="form-field">
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Enter Password" id="password" name="password">
+                <div class="error-message" id="password-error">
+
+                </div>
+            </div>
+
+
+            <div class="form-field">
+                <label for="confirm-password">Password Confirmation:</label>
+                <input type="password" placeholder="confirm-Password" id="confirm-password" name="password-confirmation">
+                <div class="error-message" id="passwordConfirmation-error">
+
+                </div>
+            
+            </div>
+            
+
+            <div class="submission-section">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    <script src="loginForm.js"></script>
+</body>
+</html>
